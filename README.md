@@ -1,5 +1,14 @@
 # Reinforcement Learning with Neural Network
 
+Forked from daniken/Pacmann
+
+I converted some Python2 code to Python3 (basically the necessary code to run LeraningAgents) to use TensorFlow at Windows. 
+TensorFlow at Windows runs at Python 3 environment only.
+I also added KayboradGhost agent so that the ghost can be controlled by the keyboard.
+
+## Original Readme:
+
+
 In this project we build and train an artificial neural network that plays as pacman. Q-learning was used as the reinforcement learning method. We assume that the environment is spatially isotropic and develop a feature based network. This assumption enables us to build a network that evaluates actions in any direction exactly the same way. The weights of the network are initialized randomly but it is successful in learning how to play well after just a few games with no prior knowledge of how to play. 
 
 The network takes 7 inputs, 2 binary and 5 discrete inputs within the range [1 0). The network currently consists of 10 hidden units and outputs a single-valued number corresponding to the approximate Q-value. The inputs are the following:
