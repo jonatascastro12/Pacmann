@@ -14,10 +14,10 @@ I also added KayboradGhost agent so that the ghost can be controlled by the keyb
 Install requirements:  
 `pip install -r requirements`
 
-To run the project, execute:
+To run the project, execute:  
 `python pacman.py -p PacmanQAgent`
 
-Use `-l` flag and specify any layout found in the folder "layouts" as such:
+Use `-l` flag and specify any layout found in the folder "layouts" as such:  
 `python pacman.py -p PacmanQAgent -l trickyClassic`
 
 Run controlling ghosts with Keyboard:  
