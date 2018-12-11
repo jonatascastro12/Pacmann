@@ -22,7 +22,7 @@ import os.path
 import random,util,math,numpy
 from keras.models import Sequential, model_from_json
 from keras.layers import Dense, Dropout, Activation, Convolution2D, Flatten
-from keras.optimizers import SGD
+from keras.optimizers import SGD, RMSprop
 
 
 class QLearningAgent(ReinforcementAgent):
@@ -510,7 +510,7 @@ class QLearningAgent(ReinforcementAgent):
 class PacmanQAgent(QLearningAgent):
 	"Exactly the same as QLearningAgent, but with different default parameters"
 
-	def __init__(self, epsilon=0.05, gamma=0.8, alpha=0.2, numTraining=0, **args):
+	def __init__(self, epsilon=0.05, gamma=0.8, alpha=0.8, numTraining=0, **args):
 		"""
 		These default parameters can be changed from the pacman.py command line.
 		For example, to change the exploration rate, try:
@@ -553,13 +553,13 @@ class PacmanQAgent(QLearningAgent):
 
 			# training settings
 		# determines if pacman will be training between turns or not
-		self.trainOnline = False	
+		self.trainOnline = True
 	
 		# controls if loss values for each training session should print to screen
-		self.verboseTraining = False		
+		self.verboseTraining = False
 
 		# controls if the weights of the network should be printed out after each training session
-		self.displayWeights = False	
+		self.displayWeights = False
 
 		# size of training batch for each training session
 		self.batchSize = 32				
@@ -590,9 +590,9 @@ class PacmanQAgent(QLearningAgent):
 			self.network = Sequential()
 
 			# specify input layer and add a hidden layer, add activation function and a single neural output layer
-			self.network.add(Dense(self.hiddenUnits, input_dim=self.inputDim, init="uniform"))
+			self.network.add(Dense(self.hiddenUnits, input_dim=self.inputDim, kernel_initializer='random_uniform'))
 			self.network.add(Activation('relu'))
-			self.network.add(Dense(self.outputDim, init="uniform"))
+			self.network.add(Dense(self.outputDim, kernel_initializer='random_uniform'))
 
 			# define @optimizer and compile the network
 			sgd = SGD(lr=0.0002, decay=1e-6, momentum=0.95, nesterov=True)
@@ -669,3 +669,4 @@ class ApproximateQAgent(PacmanQAgent):
 			# you might want to print your weights here for debugging
 			"*** YOUR CODE HERE ***"
 			pass
+
