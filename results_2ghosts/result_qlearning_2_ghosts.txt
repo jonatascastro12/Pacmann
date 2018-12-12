@@ -1,0 +1,705 @@
+C:\Users\jo0jo\PycharmProjects\Pacmann\venv\Scripts\python.exe C:/Users/jo0jo/PycharmProjects/Pacmann/pacman.py -p PacmanQAgent -x 50 -n 60 -k 2 -l mediumClassic --frameTime 0.001
+Using TensorFlow backend.
+Initializing network ...
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+dense_1 (Dense)              (None, 10)                80
+_________________________________________________________________
+activation_1 (Activation)    (None, 10)                0
+_________________________________________________________________
+dense_2 (Dense)              (None, 1)                 11
+=================================================================
+Total params: 91
+Trainable params: 91
+Non-trainable params: 0
+_________________________________________________________________
+2018-12-11 16:48:49.529975: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+Network is ready to use.
+Beginning 50 episodes of Training
+C:\Users\jo0jo\PycharmProjects\Pacmann\qlearningAgents.py:232: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  self.network.fit(patterns, targets, nb_epoch = 1, batch_size = self.batchSize, verbose = 0)
+
+				   Episode:  1
+				 explorate:  0.00
+				Completion:  0.00
+				     Q_avg: -0.33
+				experience:  180
+				     Score: -680.0
+				  Win rate:  0.00
+				     Turns:  180
+
+=========================
+
+				   Episode:  2
+				 explorate:  0.00
+				Completion:  0.00
+				     Q_avg: -1.00
+				experience:  207
+				     Score: -527.0
+				  Win rate:  0.00
+				     Turns:  27
+
+=========================
+
+				   Episode:  3
+				 explorate:  0.00
+				Completion:  0.00
+				     Q_avg: -1.38
+				experience:  224
+				     Score: -517.0
+				  Win rate:  0.00
+				     Turns:  17
+
+=========================
+
+				   Episode:  4
+				 explorate:  0.00
+				Completion:  0.05
+				     Q_avg: -5.07
+				experience:  320
+				     Score: -546.0
+				  Win rate:  0.00
+				     Turns:  96
+
+=========================
+
+				   Episode:  5
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg: -6.02
+				experience:  604
+				     Score:  1186.0
+				  Win rate:  0.20
+				     Turns:  284
+
+=========================
+
+				   Episode:  6
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  1.57
+				experience:  851
+				     Score:  1223.0
+				  Win rate:  0.33
+				     Turns:  247
+
+=========================
+
+				   Episode:  7
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  7.99
+				experience:  1010
+				     Score:  1511.0
+				  Win rate:  0.43
+				     Turns:  159
+
+=========================
+
+				   Episode:  8
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  15.60
+				experience:  1146
+				     Score:  1534.0
+				  Win rate:  0.50
+				     Turns:  136
+
+=========================
+
+				   Episode:  9
+				 explorate:  0.00
+				Completion:  0.10
+				     Q_avg: -3.28
+				experience:  1156
+				     Score: -410.0
+				  Win rate:  0.44
+				     Turns:  10
+
+=========================
+
+				   Episode:  10
+				 explorate:  0.00
+				Completion:  0.10
+				     Q_avg: -2.98
+				experience:  1166
+				     Score: -410.0
+				  Win rate:  0.40
+				     Turns:  10
+
+=========================
+
+				   Episode:  11
+				 explorate:  0.00
+				Completion:  0.52
+				     Q_avg:  7.35
+				experience:  1224
+				     Score: -58.0
+				  Win rate:  0.36
+				     Turns:  58
+
+=========================
+
+				   Episode:  12
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  8.35
+				experience:  1400
+				     Score:  1494.0
+				  Win rate:  0.42
+				     Turns:  176
+
+=========================
+
+				   Episode:  13
+				 explorate:  0.00
+				Completion:  0.68
+				     Q_avg:  7.87
+				experience:  1485
+				     Score:  75.0
+				  Win rate:  0.38
+				     Turns:  85
+
+=========================
+
+				   Episode:  14
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  11.97
+				experience:  1656
+				     Score:  1299.0
+				  Win rate:  0.43
+				     Turns:  171
+
+=========================
+
+				   Episode:  15
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  19.82
+				experience:  1781
+				     Score:  1345.0
+				  Win rate:  0.47
+				     Turns:  125
+
+=========================
+
+				   Episode:  16
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  12.61
+				experience:  1930
+				     Score:  1521.0
+				  Win rate:  0.50
+				     Turns:  149
+
+=========================
+
+				   Episode:  17
+				 explorate:  0.00
+				Completion:  0.59
+				     Q_avg:  4.88
+				experience:  2027
+				     Score: -27.0
+				  Win rate:  0.47
+				     Turns:  97
+
+=========================
+
+				   Episode:  18
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  5.43
+				experience:  2282
+				     Score:  1215.0
+				  Win rate:  0.50
+				     Turns:  255
+
+=========================
+
+				   Episode:  19
+				 explorate:  0.00
+				Completion:  0.68
+				     Q_avg: -0.43
+				experience:  2559
+				     Score: -117.0
+				  Win rate:  0.47
+				     Turns:  277
+
+=========================
+
+				   Episode:  20
+				 explorate:  0.00
+				Completion:  0.86
+				     Q_avg:  4.29
+				experience:  2786
+				     Score:  103.0
+				  Win rate:  0.45
+				     Turns:  227
+
+=========================
+
+				   Episode:  21
+				 explorate:  0.00
+				Completion:  0.68
+				     Q_avg:  0.88
+				experience:  3061
+				     Score:  85.0
+				  Win rate:  0.43
+				     Turns:  275
+
+=========================
+
+				   Episode:  22
+				 explorate:  0.00
+				Completion:  0.97
+				     Q_avg:  3.11
+				experience:  3355
+				     Score:  346.0
+				  Win rate:  0.41
+				     Turns:  294
+
+=========================
+
+				   Episode:  23
+				 explorate:  0.00
+				Completion:  0.61
+				     Q_avg: -1.74
+				experience:  3619
+				     Score: -174.0
+				  Win rate:  0.39
+				     Turns:  264
+
+=========================
+
+				   Episode:  24
+				 explorate:  0.00
+				Completion:  0.69
+				     Q_avg: -0.92
+				experience:  3904
+				     Score:  285.0
+				  Win rate:  0.38
+				     Turns:  285
+
+=========================
+
+				   Episode:  25
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  5.33
+				experience:  4258
+				     Score:  1316.0
+				  Win rate:  0.40
+				     Turns:  354
+
+=========================
+
+				   Episode:  26
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  7.23
+				experience:  4600
+				     Score:  1528.0
+				  Win rate:  0.42
+				     Turns:  342
+
+=========================
+
+				   Episode:  27
+				 explorate:  0.00
+				Completion:  0.54
+				     Q_avg:  2.62
+				experience:  4708
+				     Score: -88.0
+				  Win rate:  0.41
+				     Turns:  108
+
+=========================
+
+				   Episode:  28
+				 explorate:  0.00
+				Completion:  0.68
+				     Q_avg:  1.35
+				experience:  4972
+				     Score:  96.0
+				  Win rate:  0.39
+				     Turns:  264
+
+=========================
+
+				   Episode:  29
+				 explorate:  0.00
+				Completion:  0.93
+				     Q_avg:  2.31
+				experience:  5369
+				     Score:  203.0
+				  Win rate:  0.38
+				     Turns:  397
+
+=========================
+
+				   Episode:  30
+				 explorate:  0.00
+				Completion:  0.68
+				     Q_avg:  1.99
+				experience:  5656
+				     Score: -127.0
+				  Win rate:  0.37
+				     Turns:  287
+
+=========================
+
+				   Episode:  31
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  3.42
+				experience:  6133
+				     Score:  1193.0
+				  Win rate:  0.39
+				     Turns:  477
+
+=========================
+ha
+				   Episode:  32
+				 explorate:  0.00
+				Completion:  0.92
+				     Q_avg:  4.40
+				experience:  6425
+				     Score:  98.0
+				  Win rate:  0.38
+				     Turns:  292
+
+=========================
+
+				   Episode:  33
+				 explorate:  0.00
+				Completion:  0.81
+				     Q_avg:  1.83
+				experience:  6773
+				     Score: -58.0
+				  Win rate:  0.36
+				     Turns:  348
+
+=========================
+
+				   Episode:  34
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  6.45
+				experience:  7114
+				     Score:  1329.0
+				  Win rate:  0.38
+				     Turns:  341
+
+=========================
+
+				   Episode:  35
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  7.12
+				experience:  7513
+				     Score:  1671.0
+				  Win rate:  0.40
+				     Turns:  399
+
+=========================
+
+				   Episode:  36
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  6.29
+				experience:  7844
+				     Score:  1339.0
+				  Win rate:  0.42
+				     Turns:  331
+
+=========================
+
+				   Episode:  37
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  9.58
+				experience:  8100
+				     Score:  1414.0
+				  Win rate:  0.43
+				     Turns:  256
+
+=========================
+
+				   Episode:  38
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  11.00
+				experience:  8347
+				     Score:  1223.0
+				  Win rate:  0.45
+				     Turns:  247
+
+=========================
+
+				   Episode:  39
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  7.83
+				experience:  8630
+				     Score:  1387.0
+				  Win rate:  0.46
+				     Turns:  283
+
+=========================
+
+				   Episode:  40
+				 explorate:  0.00
+				Completion:  0.68
+				     Q_avg:  9.72
+				experience:  8787
+				     Score:  203.0
+				  Win rate:  0.45
+				     Turns:  157
+
+=========================
+
+				   Episode:  41
+				 explorate:  0.00
+				Completion:  0.69
+				     Q_avg:  7.44
+				experience:  8923
+				     Score:  34.0
+				  Win rate:  0.44
+				     Turns:  136
+
+=========================
+
+				   Episode:  42
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  5.31
+				experience:  9349
+				     Score:  1044.0
+				  Win rate:  0.45
+				     Turns:  426
+
+=========================
+
+				   Episode:  43
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  13.02
+				experience:  9619
+				     Score:  1600.0
+				  Win rate:  0.47
+				     Turns:  270
+
+=========================
+
+				   Episode:  44
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  6.99
+				experience:  9931
+				     Score:  1558.0
+				  Win rate:  0.48
+				     Turns:  312
+
+=========================
+
+				   Episode:  45
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  5.75
+				experience:  10000
+				     Score:  1668.0
+				  Win rate:  0.49
+				     Turns:  402
+
+=========================
+
+				   Episode:  46
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  12.71
+				experience:  10000
+				     Score:  1639.0
+				  Win rate:  0.50
+				     Turns:  231
+
+=========================
+
+				   Episode:  47
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  7.14
+				experience:  10000
+				     Score:  1260.0
+				  Win rate:  0.51
+				     Turns:  410
+
+=========================
+
+				   Episode:  48
+				 explorate:  0.00
+				Completion:  0.96
+				     Q_avg:  8.21
+				experience:  10000
+				     Score:  480.0
+				  Win rate:  0.50
+				     Turns:  350
+
+=========================
+
+				   Episode:  49
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  23.11
+				experience:  10000
+				     Score:  1312.0
+				  Win rate:  0.51
+				     Turns:  158
+
+=========================
+
+				   Episode:  50
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  11.31
+				experience:  10000
+				     Score:  1593.0
+				  Win rate:  0.52
+				     Turns:  277
+
+=========================
+Training Done (turning off epsilon and alpha)
+---------------------------------------------
+can't invoke "event" command: application has been destroyed
+    while executing
+"event generate $w <<ThemeChanged>>"
+    (procedure "ttk::ThemeChanged" line 6)
+    invoked from within
+"ttk::ThemeChanged"
+Pacman emerges victorious! Score: 1661
+
+				   Episode:  51
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  16.33
+				experience:  10000
+				     Score:  1661.0
+				  Win rate:  0.53
+				     Turns:  209
+
+=========================
+Pacman emerges victorious! Score: 1380
+
+				   Episode:  52
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  11.92
+				experience:  10000
+				     Score:  1380.0
+				  Win rate:  0.54
+				     Turns:  290
+
+=========================
+Pacman emerges victorious! Score: 1845
+
+				   Episode:  53
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  20.29
+				experience:  10000
+				     Score:  1845.0
+				  Win rate:  0.55
+				     Turns:  225
+
+=========================
+Pacman died! Score: 102
+
+				   Episode:  54
+				 explorate:  0.00
+				Completion:  0.93
+				     Q_avg:  3.38
+				experience:  10000
+				     Score:  102.0
+				  Win rate:  0.54
+				     Turns:  498
+
+=========================
+Pacman emerges victorious! Score: 1937
+
+				   Episode:  55
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  39.08
+				experience:  10000
+				     Score:  1937.0
+				  Win rate:  0.55
+				     Turns:  133
+
+=========================
+Pacman emerges victorious! Score: 1798
+
+				   Episode:  56
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  18.22
+				experience:  10000
+				     Score:  1798.0
+				  Win rate:  0.55
+				     Turns:  272
+
+=========================
+Pacman emerges victorious! Score: 1563
+
+				   Episode:  57
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  12.18
+				experience:  10000
+				     Score:  1563.0
+				  Win rate:  0.56
+				     Turns:  307
+
+=========================
+Pacman emerges victorious! Score: 1489
+
+				   Episode:  58
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  11.43
+				experience:  10000
+				     Score:  1489.0
+				  Win rate:  0.57
+				     Turns:  381
+
+=========================
+Pacman emerges victorious! Score: 1496
+
+				   Episode:  59
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  9.54
+				experience:  10000
+				     Score:  1496.0
+				  Win rate:  0.58
+				     Turns:  374
+
+=========================
+Pacman emerges victorious! Score: 1565
+
+				   Episode:  60
+				 explorate:  0.00
+				Completion:  1.00
+				     Q_avg:  12.63
+				experience:  10000
+				     Score:  1565.0
+				  Win rate:  0.58
+				     Turns:  305
+
+=========================
+Average Score: 1483.6
+Scores:        1661.0, 1380.0, 1845.0, 102.0, 1937.0, 1798.0, 1563.0, 1489.0, 1496.0, 1565.0
+Win Rate:      9/10 (0.90)
+Record:        Win, Win, Win, Loss, Win, Win, Win, Win, Win, Win
+
+Process finished with exit code 0
